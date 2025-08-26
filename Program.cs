@@ -1,13 +1,26 @@
-﻿try
-{
-  var result = GetFirstElement(new int[0]);
-}
-catch
-{
-  
-}
+﻿// var invallidPersonObject = new Person("", -100);
+
+// var emptyCollection = new List<int>();
+// var firstElement = GetFirstElement(emptyCollection);
+
+// var numbers = new int[] { 1, 2, 3 };
+// var fourth = numbers[3];
+// var firstUsingLinq = emptyCollection.First();
+
+// bool has7 = CheckIfContains(7, numbers);
+
+// bool CheckIfContains(int value, int[] numbers)
+// {
+//   throw new NotImplementedException();
+// }
 
 Console.ReadKey();
+
+void RecursiveMethod()
+{
+  System.Console.WriteLine("I'm going to call myself");
+  RecursiveMethod();
+}
 
 int GetFirstElement(IEnumerable<int> numbers)
 {
@@ -15,5 +28,32 @@ int GetFirstElement(IEnumerable<int> numbers)
   {
     return number;
   }
-  throw new Exception("The collection cannot be empty. jackass🤡");
+  throw new InvalidOperationException("The collection cant be empty shit for brains💩");
+}
+
+class Person
+{
+  public string Name { get; }
+  public int YearOfBirth { get; }
+
+  public Person(string name, int yearOfBirth)
+  {
+    if (name is null)
+    {
+      throw new ArgumentNullException("The name cannot be null jackass🤡.");
+    }
+    if (name == string.Empty)
+    {
+      throw new ArgumentException("The name cannot be empty jackass🤡.");
+    }
+    if (yearOfBirth < 1990 || yearOfBirth > DateTime.Now.Year)
+    {
+      throw new ArgumentOutOfRangeException("The year of birth must be\r\n between 1900 and the current year jackass🤡.");
+    }
+
+    Name = name;
+    YearOfBirth = yearOfBirth;
+  }
+
+
 }
