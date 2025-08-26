@@ -12,3 +12,4 @@ C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Excemptions\obj\Debug\net8.0\refin
 C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Excemptions\obj\Debug\net8.0\Excemptions.pdb
 C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Excemptions\obj\Debug\net8.0\Excemptions.genruntimeconfig.cache
 C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Excemptions\obj\Debug\net8.0\ref\Excemptions.dll
+C:\Users\aerma\Downloads\UT-Bootcamp\Udemy\C#\Excemptions\obj\Debug\net8.0\Excemptions.sourcelink.json
