@@ -1,4 +1,6 @@
-﻿// var invallidPersonObject = new Person("", -100);
+﻿using Excemptions.Numbers;
+
+// var invallidPersonObject = new Person("", -100);
 
 // var emptyCollection = new List<int>();
 // var firstElement = GetFirstElement(emptyCollection);
@@ -18,9 +20,9 @@ try
 {
   var result = IsFirstElementPositive(null);
 }
-catch(NullReferenceException ex)
+catch (NullReferenceException ex)
 {
-  
+
 }
 
 Console.ReadKey();
