@@ -34,5 +34,4 @@ namespace Coding.Exercise
     public decimal Amount { get; init; }
   }
 }
-// completed
-// completed another
+// completed 3 assignemnts unlogged.
