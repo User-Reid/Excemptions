@@ -6,6 +6,7 @@ namespace Excemptions.Numbers
   {
     void Example1()
     {
-         }
+
+    }
   }
 }
